@@ -1,5 +1,6 @@
 using UnityEngine;
 using UnityEngine.InputSystem;
+using JacobHomanics.TimerSystem;
 
 public class BoxShooter2 : MonoBehaviour
 {
@@ -14,6 +15,8 @@ public class BoxShooter2 : MonoBehaviour
     [Header("Size Settings")]
     [SerializeField] private float minScale = 0.7f;
     [SerializeField] private float maxScale = 1.3f;
+
+    public Timer timer;
 
     // [Header("Input Settings")]
     // [SerializeField] private InputActionAsset inputActions;
@@ -50,9 +53,10 @@ public class BoxShooter2 : MonoBehaviour
 
     void Update()
     {
-        if (Input.GetKeyDown(KeyCode.Alpha2))
+        if (Input.GetKeyDown(KeyCode.Alpha2) && timer.IsDurationReached())
         {
             ShootBox();
+            timer.Restart();
         }
     }
 

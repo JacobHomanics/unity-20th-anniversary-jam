@@ -16,6 +16,21 @@
       },
       "hash": "7d701e117f97ee4c1e837ea340ae97f320aeec0a"
     },
+    "com.jacobhomanics.timer": {
+      "version": "http://github.com/jacobHomanics/timer.git",
+      "depth": 0,
+      "source": "git",
+      "dependencies": {
+        "com.unity.ugui": "2.0.0"
+      },
+      "hash": "a5c147e9ad5937eebc77b22d4ee6cf21583e8b43"
+    },
+    "com.unity.2d.sprite": {
+      "version": "1.0.0",
+      "depth": 0,
+      "source": "builtin",
+      "dependencies": {}
+    },
     "com.unity.ai.navigation": {
       "version": "2.0.9",
       "depth": 0,
