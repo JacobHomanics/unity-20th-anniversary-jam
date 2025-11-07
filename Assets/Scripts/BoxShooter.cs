@@ -18,6 +18,9 @@ public class BoxShooter : MonoBehaviour
 
     public Timer timer;
 
+    public AudioSource audioSource;
+
+
     // [Header("Input Settings")]
     // [SerializeField] private InputActionAsset inputActions;
     // private InputAction attackAction;
@@ -66,7 +69,7 @@ public class BoxShooter : MonoBehaviour
         Vector3 spawnPosition = firePoint != null ? firePoint.position : transform.position;
         Quaternion spawnRotation = firePoint != null ? firePoint.rotation : transform.rotation;
 
-
+        audioSource.Play();
         // Instantiate the box
         GameObject box = Instantiate(boxPrefab, spawnPosition, spawnRotation);
 

@@ -4,6 +4,8 @@ using Unity.Cinemachine;
 
 public class BoxDamager : MonoBehaviour
 {
+    public GameObject audioThing;
+
     public float damage = 2f;
     void OnTriggerEnter(Collider other)
     {
@@ -11,6 +13,7 @@ public class BoxDamager : MonoBehaviour
         {
             other.GetComponentInChildren<Health>().Current -= damage;
             other.GetComponentInChildren<Animator>().Play("Hit");
+            Instantiate(audioThing);
             Destroy(this.gameObject);
         }
     }

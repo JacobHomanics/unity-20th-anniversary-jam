@@ -629,6 +629,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 15c045468f99540ef9f1cb008a53ec0d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::BoxDamager
+  audioThing: {fileID: 6559451568768959588, guid: 96e9aaa89991b4d38937c6454a170f60, type: 3}
   damage: 15
 --- !u!1 &1995305256850143020
 GameObject:

@@ -143,4 +143,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 15c045468f99540ef9f1cb008a53ec0d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::BoxDamager
+  audioThing: {fileID: 6559451568768959588, guid: ce21fafb27c0949e5819b717f445b3d4, type: 3}
   damage: 2
