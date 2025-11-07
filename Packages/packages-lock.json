@@ -1,5 +1,12 @@
 {
   "dependencies": {
+    "com.jacobhomanics.healthsystem": {
+      "version": "https://github.com/jacobhomanics/health-system.git",
+      "depth": 0,
+      "source": "git",
+      "dependencies": {},
+      "hash": "86dc690fe07f928527c416e810306a16ae1ceeeb"
+    },
     "com.jacobhomanics.rpgcontroller": {
       "version": "https://github.com/JacobHomanics/rpg-controller.git",
       "depth": 0,
