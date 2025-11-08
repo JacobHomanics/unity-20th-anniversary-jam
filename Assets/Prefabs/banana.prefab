@@ -84,13 +84,13 @@ PrefabInstance:
       addedObject: {fileID: 7075023199040764501}
     - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: f1dfe19d6f47ba84a87d2feab35dee6c, type: 3}
       insertIndex: -1
-      addedObject: {fileID: 2408453089352493841}
-    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: f1dfe19d6f47ba84a87d2feab35dee6c, type: 3}
-      insertIndex: -1
       addedObject: {fileID: 4212817078109769021}
     - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: f1dfe19d6f47ba84a87d2feab35dee6c, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1414216412508922420}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: f1dfe19d6f47ba84a87d2feab35dee6c, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 5351598122548284574}
   m_SourcePrefab: {fileID: 100100000, guid: f1dfe19d6f47ba84a87d2feab35dee6c, type: 3}
 --- !u!1 &2370157305676845707 stripped
 GameObject:
@@ -146,20 +146,6 @@ MeshCollider:
   m_Convex: 1
   m_CookingOptions: 30
   m_Mesh: {fileID: -8457624670379154836, guid: f1dfe19d6f47ba84a87d2feab35dee6c, type: 3}
---- !u!114 &2408453089352493841
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2370157305676845707}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6e1c8854916704256814f2b8b78b22c6, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::BanaRotator
-  rotationSpeed: 500
-  rotationAxis: {x: 0, y: 1, z: 0}
 --- !u!114 &4212817078109769021
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -227,3 +213,23 @@ MonoBehaviour:
     DissipationDistance: 100
     PropagationSpeed: 343
   DefaultVelocity: {x: 0, y: -1, z: 0}
+--- !u!114 &5351598122548284574
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2370157305676845707}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b58e7760d830548f99a79a4849cbf14d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Rotator
+  rotationSpeed: 500
+  rotationAxis: {x: 0, y: 1, z: 0}
+  target: {fileID: 3147925084347959345}
+--- !u!4 &3147925084347959345 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: f1dfe19d6f47ba84a87d2feab35dee6c, type: 3}
+  m_PrefabInstance: {fileID: 3180971058230947802}
+  m_PrefabAsset: {fileID: 0}

@@ -1,14 +1,15 @@
 using UnityEngine;
 
-public class BanaRotator : MonoBehaviour
+public class Rotator : MonoBehaviour
 {
     [Header("Rotation Settings")]
     [SerializeField] private float rotationSpeed = 90f; // degrees per second
     [SerializeField] private Vector3 rotationAxis = Vector3.up; // axis to rotate around
+    [SerializeField] private Transform target; // axis to rotate around
 
     void Update()
     {
         // Rotate continuously
-        transform.Rotate(rotationAxis * rotationSpeed * Time.deltaTime, Space.Self);
+        target.transform.Rotate(rotationAxis * rotationSpeed * Time.deltaTime, Space.Self);
     }
 }

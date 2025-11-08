@@ -5,7 +5,7 @@
       "depth": 0,
       "source": "git",
       "dependencies": {},
-      "hash": "ea7ab799bdd7761a8313c0408a52925e077b251f"
+      "hash": "b5f65578dd7cdb4e79aa263fcd8ee82120149a1e"
     },
     "com.jacobhomanics.rpgcontroller": {
       "version": "https://github.com/JacobHomanics/rpg-controller.git",
@@ -23,7 +23,7 @@
       "dependencies": {
         "com.unity.ugui": "2.0.0"
       },
-      "hash": "a5c147e9ad5937eebc77b22d4ee6cf21583e8b43"
+      "hash": "bf00be2543dca1cf34735cdc170fe6f5f6916540"
     },
     "com.unity.2d.sprite": {
       "version": "1.0.0",
