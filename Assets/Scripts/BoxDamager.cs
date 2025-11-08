@@ -9,6 +9,11 @@ public class BoxDamager : MonoBehaviour
     public float damage = 2f;
     void OnTriggerEnter(Collider other)
     {
+        if (other.CompareTag("Environment"))
+        {
+            Instantiate(audioThing);
+            Destroy(this.gameObject);
+        }
         if (other.CompareTag("Enemy"))
         {
             other.GetComponentInChildren<Health>().Current -= damage;
