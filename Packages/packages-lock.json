@@ -5,7 +5,7 @@
       "depth": 0,
       "source": "git",
       "dependencies": {},
-      "hash": "86dc690fe07f928527c416e810306a16ae1ceeeb"
+      "hash": "ea7ab799bdd7761a8313c0408a52925e077b251f"
     },
     "com.jacobhomanics.rpgcontroller": {
       "version": "https://github.com/JacobHomanics/rpg-controller.git",
