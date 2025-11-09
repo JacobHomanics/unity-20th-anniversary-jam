@@ -9,6 +9,13 @@
       },
       "hash": "935e17d3a4d6e63ceb0308ca2c7b6e980cf36434"
     },
+    "com.jacobhomanics.privyunitysdk": {
+      "version": "https://github.com/jacobhomanics/privy-unity.git",
+      "depth": 0,
+      "source": "git",
+      "dependencies": {},
+      "hash": "0a080fea760180e385034708d6e7b783f0c5cb71"
+    },
     "com.jacobhomanics.rpgcontroller": {
       "version": "https://github.com/JacobHomanics/rpg-controller.git",
       "depth": 0,

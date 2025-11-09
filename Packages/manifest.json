@@ -1,6 +1,7 @@
 {
   "dependencies": {
     "com.jacobhomanics.healthsystem": "https://github.com/jacobhomanics/health-system.git",
+    "com.jacobhomanics.privyunitysdk": "https://github.com/jacobhomanics/privy-unity.git",
     "com.jacobhomanics.rpgcontroller": "https://github.com/JacobHomanics/rpg-controller.git",
     "com.jacobhomanics.timer": "https://github.com/JacobHomanics/timer.git",
     "com.unity.2d.sprite": "1.0.0",
