@@ -925,6 +925,10 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8120290067654841128, guid: c0fddcd41b3114f08b85ff81deb4011a, type: 3}
+      propertyPath: managedReferences[4860107652379181483].textMax.text
+      value: 
+      objectReference: {fileID: 232565828}
+    - target: {fileID: 8120290067654841128, guid: c0fddcd41b3114f08b85ff81deb4011a, type: 3}
       propertyPath: managedReferences[4860107652379181484].colorAtMax.a
       value: 1
       objectReference: {fileID: 0}
@@ -989,6 +993,10 @@ PrefabInstance:
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8120290067654841128, guid: c0fddcd41b3114f08b85ff81deb4011a, type: 3}
+      propertyPath: managedReferences[4860107652379181483].textMax.format
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 8120290067654841128, guid: c0fddcd41b3114f08b85ff81deb4011a, type: 3}
       propertyPath: managedReferences[4860107652379181485].animationSpeed
       value: 10
       objectReference: {fileID: 0}
@@ -996,6 +1004,10 @@ PrefabInstance:
       propertyPath: managedReferences[4860107652379181485].backgroundFill
       value: 
       objectReference: {fileID: 232565831}
+    - target: {fileID: 8120290067654841128, guid: c0fddcd41b3114f08b85ff81deb4011a, type: 3}
+      propertyPath: managedReferences[4860107652379181483].textCurrent.text
+      value: 
+      objectReference: {fileID: 232565829}
     - target: {fileID: 8120290067654841128, guid: c0fddcd41b3114f08b85ff81deb4011a, type: 3}
       propertyPath: managedReferences[4860107652379181484].colorAtHalfway.a
       value: 1
@@ -1029,12 +1041,24 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8120290067654841128, guid: c0fddcd41b3114f08b85ff81deb4011a, type: 3}
+      propertyPath: managedReferences[4860107652379181483].textCurrent.format
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 8120290067654841128, guid: c0fddcd41b3114f08b85ff81deb4011a, type: 3}
       propertyPath: managedReferences[4860107652379181485].animationFromValue
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8120290067654841128, guid: c0fddcd41b3114f08b85ff81deb4011a, type: 3}
       propertyPath: managedReferences[4860107652379181485].keepSizeConsistent
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8120290067654841128, guid: c0fddcd41b3114f08b85ff81deb4011a, type: 3}
+      propertyPath: managedReferences[4860107652379181483].textMax.displayType
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8120290067654841128, guid: c0fddcd41b3114f08b85ff81deb4011a, type: 3}
+      propertyPath: managedReferences[4860107652379181483].textCurrent.displayType
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8120290067654841128, guid: c0fddcd41b3114f08b85ff81deb4011a, type: 3}
       propertyPath: managedReferences[4860107652379181485].animationDelayRemaining
@@ -2257,6 +2281,10 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8120290067654841128, guid: c0fddcd41b3114f08b85ff81deb4011a, type: 3}
+      propertyPath: managedReferences[4860107652379181483].textMax.text
+      value: 
+      objectReference: {fileID: 453106129}
+    - target: {fileID: 8120290067654841128, guid: c0fddcd41b3114f08b85ff81deb4011a, type: 3}
       propertyPath: managedReferences[4860107652379181484].colorAtMax.a
       value: 1
       objectReference: {fileID: 0}
@@ -2321,6 +2349,10 @@ PrefabInstance:
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8120290067654841128, guid: c0fddcd41b3114f08b85ff81deb4011a, type: 3}
+      propertyPath: managedReferences[4860107652379181483].textMax.format
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 8120290067654841128, guid: c0fddcd41b3114f08b85ff81deb4011a, type: 3}
       propertyPath: managedReferences[4860107652379181485].animationSpeed
       value: 10
       objectReference: {fileID: 0}
@@ -2328,6 +2360,10 @@ PrefabInstance:
       propertyPath: managedReferences[4860107652379181485].backgroundFill
       value: 
       objectReference: {fileID: 453106132}
+    - target: {fileID: 8120290067654841128, guid: c0fddcd41b3114f08b85ff81deb4011a, type: 3}
+      propertyPath: managedReferences[4860107652379181483].textCurrent.text
+      value: 
+      objectReference: {fileID: 453106130}
     - target: {fileID: 8120290067654841128, guid: c0fddcd41b3114f08b85ff81deb4011a, type: 3}
       propertyPath: managedReferences[4860107652379181484].colorAtHalfway.a
       value: 1
@@ -2361,12 +2397,24 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8120290067654841128, guid: c0fddcd41b3114f08b85ff81deb4011a, type: 3}
+      propertyPath: managedReferences[4860107652379181483].textCurrent.format
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 8120290067654841128, guid: c0fddcd41b3114f08b85ff81deb4011a, type: 3}
       propertyPath: managedReferences[4860107652379181485].animationFromValue
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8120290067654841128, guid: c0fddcd41b3114f08b85ff81deb4011a, type: 3}
       propertyPath: managedReferences[4860107652379181485].keepSizeConsistent
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8120290067654841128, guid: c0fddcd41b3114f08b85ff81deb4011a, type: 3}
+      propertyPath: managedReferences[4860107652379181483].textMax.displayType
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8120290067654841128, guid: c0fddcd41b3114f08b85ff81deb4011a, type: 3}
+      propertyPath: managedReferences[4860107652379181483].textCurrent.displayType
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8120290067654841128, guid: c0fddcd41b3114f08b85ff81deb4011a, type: 3}
       propertyPath: managedReferences[4860107652379181485].animationDelayRemaining

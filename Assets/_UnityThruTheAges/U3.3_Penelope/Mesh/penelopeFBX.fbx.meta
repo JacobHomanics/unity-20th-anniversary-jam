@@ -8,7 +8,7 @@ AssetOrigin:
   assetPath: Assets/Objects/penelopeFBX.fbx
   uploadId: 24673
 ModelImporter:
-  serializedVersion: 22200
+  serializedVersion: 24200
   internalIDToNameTable:
   - first:
       43: 4300000
@@ -74,6 +74,9 @@ ModelImporter:
     maxBonesPerVertex: 4
     minBoneWeight: 0.001
     optimizeBones: 1
+    generateMeshLods: 0
+    meshLodGenerationFlags: 0
+    maximumMeshLod: -1
     meshOptimizationFlags: -1
     indexFormat: 1
     secondaryUVAngleDistortion: 8
@@ -94,16 +97,16 @@ ModelImporter:
     blendShapeNormalImportMode: 1
     normalSmoothingSource: 0
   referencedClips:
-  - 794790440bb3b4b0c89dd03e75786f9d
-  - 8e6b922b41492461bb037f9d77bff003
-  - 16cd2e90e0b244124817b3461f64342b
-  - 5329225d6f37d45908c519fde91b356b
-  - c1aa6150ad18c4c8ca4b340e51c1b453
-  - 80a87caae97a548d6b4102fa2b98da8a
   - 9b1d8e0069de24028aab7001c48a7f9b
+  - 794790440bb3b4b0c89dd03e75786f9d
   - 690485bcbacbb4aad98363045953bf7d
+  - 5329225d6f37d45908c519fde91b356b
   - c5544289ebdc14117a0a089ccd2fe678
+  - c1aa6150ad18c4c8ca4b340e51c1b453
   - b5f352bd0d1c44e39ba32864533995d9
+  - 16cd2e90e0b244124817b3461f64342b
+  - 8e6b922b41492461bb037f9d77bff003
+  - 80a87caae97a548d6b4102fa2b98da8a
   importAnimation: 1
   humanDescription:
     serializedVersion: 3
