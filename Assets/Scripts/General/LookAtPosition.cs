@@ -1,10 +1,9 @@
 using UnityEngine;
 
-public class LookAtCamera : MonoBehaviour
+public class LookAtPosition : MonoBehaviour
 {
     [Header("Target Settings")]
-    [SerializeField] private Transform target;
-    [SerializeField] private bool useMainCameraIfTargetNull = true;
+    [SerializeField] private Vector3 target;
 
     [Header("Rotation Settings")]
     [SerializeField] private bool smoothRotation = false;
@@ -15,30 +14,15 @@ public class LookAtCamera : MonoBehaviour
     [SerializeField] private bool lockYAxis = false;
     [SerializeField] private bool lockZAxis = false;
 
-    private Transform targetTransform;
+    private Vector3 targetPosition;
 
     void Start()
     {
-        // Set target to main camera if no target is assigned and useMainCameraIfTargetNull is true
-        if (target == null && useMainCameraIfTargetNull)
-        {
-            if (Camera.main != null)
-            {
-                targetTransform = Camera.main.transform;
-            }
-        }
-        else if (target != null)
-        {
-            targetTransform = target;
-        }
+        targetPosition = target;
     }
 
     void Update()
     {
-        if (targetTransform == null)
-            return;
-
-        Vector3 targetPosition = targetTransform.position;
         Vector3 direction = targetPosition - transform.position;
 
         // Lock axes if specified
@@ -60,12 +44,6 @@ public class LookAtCamera : MonoBehaviour
                 transform.rotation = targetRotation;
             }
         }
-    }
-
-    // Public method to set target at runtime
-    public void SetTarget(Transform newTarget)
-    {
-        targetTransform = newTarget;
     }
 }
 

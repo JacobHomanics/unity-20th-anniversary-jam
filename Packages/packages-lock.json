@@ -5,9 +5,9 @@
       "depth": 0,
       "source": "git",
       "dependencies": {
-        "com.jacobhomanics.trickedoutui": "0.1.1"
+        "com.jacobhomanics.trickedoutui": "0.3.0"
       },
-      "hash": "17088130872e8007e0b0fd45b4b3c01ea6497e8b"
+      "hash": "935e17d3a4d6e63ceb0308ca2c7b6e980cf36434"
     },
     "com.jacobhomanics.rpgcontroller": {
       "version": "https://github.com/JacobHomanics/rpg-controller.git",
@@ -16,7 +16,7 @@
       "dependencies": {
         "com.unity.cinemachine": "3.1.3"
       },
-      "hash": "7d701e117f97ee4c1e837ea340ae97f320aeec0a"
+      "hash": "6beb865fa2e9a0de6e718fbb040f3ea832a4d088"
     },
     "com.jacobhomanics.timer": {
       "version": "https://github.com/JacobHomanics/timer.git",
@@ -29,7 +29,7 @@
       "hash": "fbe8eab2045792ba8f7e350980d68a32b7561f79"
     },
     "com.jacobhomanics.trickedoutui": {
-      "version": "0.1.1",
+      "version": "0.3.0",
       "depth": 1,
       "source": "registry",
       "dependencies": {
