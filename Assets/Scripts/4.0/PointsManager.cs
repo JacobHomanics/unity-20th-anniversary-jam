@@ -1,6 +1,7 @@
 using System.Collections;
 using TMPro;
 using UnityEngine;
+using UnityEngine.Events;
 
 public class PointsManager : MonoBehaviour
 {
@@ -10,6 +11,7 @@ public class PointsManager : MonoBehaviour
 
     public int threshold;
 
+    public UnityEvent onThreshold;
 
     void Update()
     {
@@ -18,6 +20,7 @@ public class PointsManager : MonoBehaviour
         if (points >= threshold)
         {
             Debug.Log("Won game");
+            onThreshold?.Invoke();
         }
     }
 }

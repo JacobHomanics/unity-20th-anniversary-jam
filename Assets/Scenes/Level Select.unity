@@ -217,11 +217,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5398290368397124403, guid: 6ccf463289fcf4e1b80c2613cf859da6, type: 3}
       propertyPath: m_text
-      value: Poisoned Contemplation
+      value: Time Seeps Away
       objectReference: {fileID: 0}
     - target: {fileID: 5398290368397124403, guid: 6ccf463289fcf4e1b80c2613cf859da6, type: 3}
       propertyPath: m_fontSize
-      value: 12.5
+      value: 8.4
       objectReference: {fileID: 0}
     - target: {fileID: 7585030984943821917, guid: 6ccf463289fcf4e1b80c2613cf859da6, type: 3}
       propertyPath: levelPrefName
