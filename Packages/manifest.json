@@ -2,7 +2,7 @@
   "dependencies": {
     "com.jacobhomanics.healthsystem": "https://github.com/jacobhomanics/health-system.git",
     "com.jacobhomanics.rpgcontroller": "https://github.com/JacobHomanics/rpg-controller.git",
-    "com.jacobhomanics.timer": "http://github.com/jacobHomanics/timer.git",
+    "com.jacobhomanics.timer": "https://github.com/JacobHomanics/timer.git",
     "com.unity.2d.sprite": "1.0.0",
     "com.unity.ai.navigation": "2.0.9",
     "com.unity.collab-proxy": "2.10.0",
@@ -47,5 +47,14 @@
     "com.unity.modules.vr": "1.0.0",
     "com.unity.modules.wind": "1.0.0",
     "com.unity.modules.xr": "1.0.0"
-  }
+  },
+  "scopedRegistries": [
+    {
+      "name": "package.openupm.com",
+      "url": "https://package.openupm.com",
+      "scopes": [
+        "com.jacobhomanics.trickedoutui"
+      ]
+    }
+  ]
 }

@@ -17,13 +17,23 @@
       "hash": "7d701e117f97ee4c1e837ea340ae97f320aeec0a"
     },
     "com.jacobhomanics.timer": {
-      "version": "http://github.com/jacobHomanics/timer.git",
+      "version": "https://github.com/JacobHomanics/timer.git",
       "depth": 0,
       "source": "git",
       "dependencies": {
+        "com.unity.ugui": "2.0.0",
+        "com.jacobhomanics.trickedoutui": "0.0.6"
+      },
+      "hash": "fbe8eab2045792ba8f7e350980d68a32b7561f79"
+    },
+    "com.jacobhomanics.trickedoutui": {
+      "version": "0.0.6",
+      "depth": 1,
+      "source": "registry",
+      "dependencies": {
         "com.unity.ugui": "2.0.0"
       },
-      "hash": "bf00be2543dca1cf34735cdc170fe6f5f6916540"
+      "url": "https://package.openupm.com"
     },
     "com.unity.2d.sprite": {
       "version": "1.0.0",
