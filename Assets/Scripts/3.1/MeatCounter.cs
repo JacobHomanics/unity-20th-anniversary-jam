@@ -1,5 +1,6 @@
 using TMPro;
 using UnityEngine;
+using UnityEngine.Events;
 
 public class MeatCounter : MonoBehaviour
 {
@@ -7,12 +8,14 @@ public class MeatCounter : MonoBehaviour
 
     [SerializeField] private int totalAmount;
 
+    public UnityEvent onZero;
+
     public void Collect()
     {
         totalAmount -= 1;
         if (totalAmount <= 0)
         {
-            Debug.Log("End Scene");
+            onZero?.Invoke();
         }
     }
 
