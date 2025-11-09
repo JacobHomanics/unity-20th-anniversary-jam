@@ -8,6 +8,7 @@ public class TeddyCollider : MonoBehaviour
         if (other.CompareTag("Enemy"))
         {
             other.GetComponent<Animator>().Play("Dying");
+            other.GetComponent<Collider>().enabled = false;
             FindAnyObjectByType<PointsManager>().points += other.GetComponent<EnemyPointRewarder>().amount;
         }
     }

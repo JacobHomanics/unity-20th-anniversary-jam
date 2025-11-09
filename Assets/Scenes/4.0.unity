@@ -1256,11 +1256,16 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ChargeController
   buttonName: Fire1
-  maxCharge: 10
+  maxCharge: 4
   currentCharge: 0
   playerMotor: {fileID: 456398124}
   timer: {fileID: 1684136071}
   timerUI: {fileID: 370010243}
+--- !u!4 &456398131 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 7825849232597600735, guid: 9591cb1fdeed74cde8f58f3ed3dcfdfe, type: 3}
+  m_PrefabInstance: {fileID: 937379481}
+  m_PrefabAsset: {fileID: 0}
 --- !u!114 &456398132
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1497,6 +1502,57 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: -90, y: 0, z: 0}
+--- !u!1 &540982439
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 540982441}
+  - component: {fileID: 540982440}
+  m_Layer: 0
+  m_Name: GameObject
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &540982440
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 540982439}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7420e674a01354b6bb6c4e8bea5d7afc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::SlamController
+  slamRadius: 1
+  maxSlamRadius: 5
+  visualDuration: 2
+  slamVisualMaterial: {fileID: 2100000, guid: 1966c59dec3fd482aab282990688f6e8, type: 2}
+  chargeController: {fileID: 456398126}
+  playerMotor: {fileID: 456398124}
+  spherePrefab: {fileID: 6286461208606489104, guid: 29f5df899788343a29c24480d2384943, type: 3}
+--- !u!4 &540982441
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 540982439}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: -0.96, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 456398131}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &669371305
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2117,6 +2173,34 @@ PrefabInstance:
       propertyPath: motorValues
       value: 
       objectReference: {fileID: 11400000, guid: 2d14161d542464cf0b9b9b6bef476245, type: 2}
+    - target: {fileID: 644687346938442545, guid: 9591cb1fdeed74cde8f58f3ed3dcfdfe, type: 3}
+      propertyPath: events.otherEvents.Grounded.m_PersistentCalls.m_Calls.Array.size
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 644687346938442545, guid: 9591cb1fdeed74cde8f58f3ed3dcfdfe, type: 3}
+      propertyPath: events.otherEvents.Grounded.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 644687346938442545, guid: 9591cb1fdeed74cde8f58f3ed3dcfdfe, type: 3}
+      propertyPath: events.otherEvents.Grounded.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 540982440}
+    - target: {fileID: 644687346938442545, guid: 9591cb1fdeed74cde8f58f3ed3dcfdfe, type: 3}
+      propertyPath: events.otherEvents.Grounded.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 644687346938442545, guid: 9591cb1fdeed74cde8f58f3ed3dcfdfe, type: 3}
+      propertyPath: events.otherEvents.Grounded.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: Slam
+      objectReference: {fileID: 0}
+    - target: {fileID: 644687346938442545, guid: 9591cb1fdeed74cde8f58f3ed3dcfdfe, type: 3}
+      propertyPath: events.otherEvents.Grounded.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: SlamController, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 644687346938442545, guid: 9591cb1fdeed74cde8f58f3ed3dcfdfe, type: 3}
+      propertyPath: events.otherEvents.Grounded.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
     - target: {fileID: 2035127145148154897, guid: 9591cb1fdeed74cde8f58f3ed3dcfdfe, type: 3}
       propertyPath: m_LocalPosition.y
       value: 0.5
@@ -2196,6 +2280,9 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects:
+    - targetCorrespondingSourceObject: {fileID: 7825849232597600735, guid: 9591cb1fdeed74cde8f58f3ed3dcfdfe, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 540982441}
     - targetCorrespondingSourceObject: {fileID: 8484936789642388863, guid: 9591cb1fdeed74cde8f58f3ed3dcfdfe, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1526921792}
@@ -4076,7 +4163,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6a762c1279059493b800f3d8527c2bf6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: timer::JacobHomanics.TimerSystem.Timer
-  duration: 3
+  duration: 1.5
   elapsedTime: 0
   tickType: 0
   loop: 0

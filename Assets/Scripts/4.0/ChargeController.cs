@@ -26,6 +26,10 @@ public class ChargeController : MonoBehaviour
     // Normalized charge (0 to 1)
     public float NormalizedCharge => currentCharge / maxCharge;
 
+    // Last charge value when button was released (before reset)
+    public float LastReleasedCharge { get; private set; } = 0f;
+    public float LastReleasedNormalizedCharge => LastReleasedCharge / maxCharge;
+
     // Events for when charge reaches max or is released
     public System.Action OnChargeComplete;
     public System.Action<float> OnChargeReleased;
@@ -37,6 +41,7 @@ public class ChargeController : MonoBehaviour
     public Timer timer;
     public GameObject timerUI;
 
+
     void Update()
     {
         bool isHoldingButton = Input.GetKey(KeyCode.Space);
@@ -44,6 +49,10 @@ public class ChargeController : MonoBehaviour
 
         if (isButtonUp)
         {
+            // Store the charge value before resetting
+            LastReleasedCharge = currentCharge;
+            OnChargeReleased?.Invoke(LastReleasedCharge);
+
             timer.Restart();
             currentCharge = 0;
         }
