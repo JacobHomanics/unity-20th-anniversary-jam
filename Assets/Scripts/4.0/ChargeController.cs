@@ -41,9 +41,19 @@ public class ChargeController : MonoBehaviour
     public Timer timer;
     public GameObject timerUI;
 
+    bool canCharge = true;
+
+    void Start()
+    {
+        playerMotor.events.otherEvents.Grounded.AddListener(() => { canCharge = true; });
+    }
 
     void Update()
     {
+        if (!canCharge)
+        {
+            return;
+        }
         bool isHoldingButton = Input.GetKey(KeyCode.Space);
         bool isButtonUp = Input.GetKeyUp(KeyCode.Space);
 
@@ -52,13 +62,16 @@ public class ChargeController : MonoBehaviour
             // Store the charge value before resetting
             LastReleasedCharge = currentCharge;
             OnChargeReleased?.Invoke(LastReleasedCharge);
-
+            canCharge = false;
             timer.Restart();
             currentCharge = 0;
         }
 
+
+
         timer.enabled = isHoldingButton;
         timerUI.SetActive(isHoldingButton);
+
 
         if (isHoldingButton)
         {

@@ -46,6 +46,10 @@ public class SlamController : MonoBehaviour
             {
                 hitCollider.GetComponent<Animator>().Play("Dying");
                 FindAnyObjectByType<PointsManager>().points += hitCollider.GetComponent<EnemyPointRewarder>().amount;
+                hitCollider.GetComponent<MoveForward>().speed = 0;
+                hitCollider.GetComponent<Collider>().enabled = false;
+                hitCollider.GetComponent<Rigidbody>().isKinematic = true;
+
             }
         }
 
