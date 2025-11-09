@@ -23,6 +23,12 @@ public class OrbCollector : MonoBehaviour
                 nrp.SelectRandomWaypoint();
             }
 
+            FindAnyObjectByType<OrbCounter>().orbCounter++;
+            if (FindAnyObjectByType<OrbCounter>().orbCounter >= 5)
+            {
+                Debug.Log("Scene won!");
+            }
+
             Destroy(this.gameObject);
         }
 

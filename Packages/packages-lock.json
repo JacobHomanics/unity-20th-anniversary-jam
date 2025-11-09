@@ -4,8 +4,10 @@
       "version": "https://github.com/jacobhomanics/health-system.git",
       "depth": 0,
       "source": "git",
-      "dependencies": {},
-      "hash": "0c3f91c3308accc66298092512bf1bfb87557787"
+      "dependencies": {
+        "com.jacobhomanics.trickedoutui": "0.1.1"
+      },
+      "hash": "17088130872e8007e0b0fd45b4b3c01ea6497e8b"
     },
     "com.jacobhomanics.rpgcontroller": {
       "version": "https://github.com/JacobHomanics/rpg-controller.git",
@@ -27,7 +29,7 @@
       "hash": "fbe8eab2045792ba8f7e350980d68a32b7561f79"
     },
     "com.jacobhomanics.trickedoutui": {
-      "version": "0.0.6",
+      "version": "0.1.1",
       "depth": 1,
       "source": "registry",
       "dependencies": {
