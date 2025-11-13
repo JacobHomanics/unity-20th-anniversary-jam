@@ -7,14 +7,7 @@
       "dependencies": {
         "com.jacobhomanics.trickedoutui": "0.3.0"
       },
-      "hash": "935e17d3a4d6e63ceb0308ca2c7b6e980cf36434"
-    },
-    "com.jacobhomanics.privyunitysdk": {
-      "version": "https://github.com/jacobhomanics/privy-unity.git",
-      "depth": 0,
-      "source": "git",
-      "dependencies": {},
-      "hash": "0a080fea760180e385034708d6e7b783f0c5cb71"
+      "hash": "6d97f1939286ab0ceb52db837a1f35867d6b1fa0"
     },
     "com.jacobhomanics.rpgcontroller": {
       "version": "https://github.com/JacobHomanics/rpg-controller.git",
@@ -33,7 +26,7 @@
         "com.unity.ugui": "2.0.0",
         "com.jacobhomanics.trickedoutui": "0.0.6"
       },
-      "hash": "fbe8eab2045792ba8f7e350980d68a32b7561f79"
+      "hash": "2576f3460f602c44454cba5faa986a2f302a9f4f"
     },
     "com.jacobhomanics.trickedoutui": {
       "version": "0.3.0",
